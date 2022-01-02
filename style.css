@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+    background: rebeccapurple;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5;
+}
+nav{
+    line-height: 30px;
+    background-color:#eeeeee;
+    height: 400px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+main section{
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background: orange;
+    height: 290px;
+    margin: 5px 5px;
+}
+main aside{
+    width: 20%;
+    float: right;
+    padding: 10px;
+    background: orange;
+    margin-top: 5px;
+    height: 400px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
