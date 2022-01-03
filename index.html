@@ -7,22 +7,23 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-      
-    <div id="header">
-        header
-    </div>
-    <div id="menu">
-        menu
-    </div>
-    <div id="principal">
-        principal
-    </div>
-    <div id="lado">
-        lado
-    </div>
-    <div id="footer">
-        footer
-    </div>
+      <div id="container">
+          <h1>Meal Finder</h1>
+          <div class="flex">
+              <form class="flex" id="submit">
+                 <input type="text" id="search" placeholder="Search for meals or keywords">
+                 <button class="search-btn" type="submit">
+                      <i class="fas fa-search"></i>
+                 </button>
+              </form>
+             <button class="random-btn" id="random">
+                 <i class="fas fa-random"></i>
+             </button>
+          </div>
+          <div class="result-heading"></div>
+          <div id="meals" class="meals"></div>
+          <div id="single-meal"></div>
+      </div>
     <script src="script.js"></script>
   </body>
 </html>
