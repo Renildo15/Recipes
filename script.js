@@ -31,4 +31,13 @@ Add /preview to the end of the meal image URL
 /images/media/meals/llcbn01574260722.jpg/preview
 Ingredient Thumbnail Images
 www.themealdb.com/images/ingredients/Lime.png
-www.themealdb.com/images/ingredients/Lime-Small.png//*/
+www.themealdb.com/images/ingredients/Lime-Small.png//
+
+
+
+<ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">All meals</a></li>
+                <li><a href="">Meal details</a></li>
+                <li><a href="">Categories</a></li>
+            </ul>*/
